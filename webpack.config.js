@@ -73,9 +73,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'template.html',
+            template: 'index.html',
             filename: 'index.html',
-            title: '测试'
+            title: 'vue后台管理'
         })
     ]
 }
