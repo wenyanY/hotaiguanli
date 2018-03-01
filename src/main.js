@@ -4,6 +4,8 @@ import Router from "./router";//导入路由文件
 import ElementUI from 'element-ui'//导入element插件
 import 'element-ui/lib/theme-chalk/index.css'
 import 'normalize.css'
+import './less/index.less'
+
 //引用插件就要 开始
 Vue.use(ElementUI)
 // 导入axios请求插件
