@@ -34,7 +34,7 @@ export default {
 <style lang="less" scoped>
 .main{
   height: 100%;
-  background: pink;
+  background: rgb(202, 209, 247);
  
   .el-container .el-header{
     height: 50px !important;

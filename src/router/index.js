@@ -2,10 +2,12 @@ import Vue from "vue";
 import VueRouter from 'vue-router'
 import  Login from "../component/login/login.vue";
 import admin from "../component/admin/admin.vue";
- import Shopcart from '../component/admin/Shopcart/shopcart.vue'
+ import list from '../component/admin/goods/list.vue';
+import Detail from '../component/admin/goods/Detail.vue'
 
 const shopcart = [
-    { name: 'shopcart', path: 'Shopcart', component: Shopcart } // 子路由path不加/自动拼接父路由path
+    { name: 'list', path: 'goods/list', component: list } ,
+    { name: 'Detail', path: 'goods/detail', component: Detail } 
 ]
 
 Vue.use(VueRouter)
